@@ -9,7 +9,7 @@ import org.vertx.java.platform.Verticle;
 
 /**
  * 
- * This is a test!
+ * This is a test! 
  * Rif:
  * http://www.javaworld.com/article/2078838/mobile-java/open-source-java-projects-vert-x.html
  */
