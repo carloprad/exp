@@ -32,6 +32,7 @@ public class FakeServer extends Verticle {
 	@Override
 	 public void start() {
 		 	// Istanzio un handler capace di trattare le richieste 
+		    // Notare che all'HandlerPersona passo l'istanza container
 		 	HandlerPersona hp = new HandlerPersona(container);
 		 	// Lego l'handler ad un server http
 	        HttpServer httpServer = vertx.createHttpServer().requestHandler(hp);

@@ -9,7 +9,8 @@ import org.vertx.java.platform.Container;
 // Handler che gestisce la richiesta di una persona
 public class HandlerPersona implements Handler<HttpServerRequest>{
 
-	// Riferimento al container
+	// Riferimento al container: mi serve per poter accedere agli oggetti
+	// contenuti nel container. Nel caso specifico usero' il logger.
 	private  Container container = null;
 	
 	public  HandlerPersona(Container container) {
